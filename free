@@ -1,3 +1,23 @@
-# pes888
-مشروعي الأول لتعلم التركية
-kod prim
+<!DOCTYPE html>
+<html>
+<head>
+<title>Merhaba - مشروعي الأول</title>
+<style>
+body { font-family: sans-serif; text-align: center; background: #111; color: white; padding: 50px; }
+h1 { color: #ffcc00; }
+.card { background: #222; padding: 20px; border-radius: 15px; margin: 10px; }
+</style>
+</head>
+<body>
+<h1>Merhaba Dünya! 🇹🇷</h1>
+<p>أنا alvariz267-sys وهادي أول صفحة ديالي</p>
+
+<div class="card">
+<p>🇹🇷 Nasılsın? = كي داير؟</p>
+<p>🇹🇷 İyiyim = لاباس</p>
+<p>🇹🇷 Teşekkürler = شكرا</p>
+</div>
+
+<p>pes888 project</p>
+</body>
+</html>
