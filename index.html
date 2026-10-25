@@ -9,6 +9,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
   <style>
+  #beta-popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+  }
+  .beta-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 85%;
+    max-width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    font-family: 'Cairo', sans-serif;
+  }
+  .beta-box h3 { color: #e74c3c; }
+  .beta-box button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
   label{
     color:White;
   }
@@ -66,6 +97,13 @@
     
   
     <form>
+<div id="beta-popup">
+  <div class="beta-box">
+    <h3>🚧 تنبيه</h3>
+    <p>هذا الموقع تجريبي و لا يزال قيد التطوير.</p>
+    <button onclick="document.getElementById('beta-popup').style.display='none'">فهمت</button>
+  </div>
+</div>
       <center>
   <fieldset id="fie">
     
