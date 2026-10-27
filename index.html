@@ -4,154 +4,73 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="styles/style.css"/>
-  <title>login</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  <title>Hello, World!</title>
   <style>
-  #beta-popup {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    backdrop-filter: blur(5px);
-  }
-  .beta-box {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    text-align: center;
-    width: 85%;
-    max-width: 350px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    font-family: 'Cairo', sans-serif;
-  }
-  .beta-box h3 { color: #e74c3c; }
-  .beta-box button {
-    background: #667eea;
-    color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-
-  label{
-    color:White;
-  }
-  .le_tetl{
-    color:red;
-    font-size:16px;
-    font-style:italic;
-    font-variant:small-cops;
-    font-weight:bold;
-    font-family:serif;
+  .3onwan{
+    text-align:center;
     
-  }
-  #name{
-    font-family:serif;
-    
-  }
-  
-
-  #email{
-    font-family:serif
-  }
-  #pass{
-    font-family:serif;
-    
-  }
-  #sub{
-    font-family:serif;
-    padding-left:25px;
-    padding-right:25px;
-    color:White;
-    background-color:red;
   }
   input{
-    font-family:serif;
-    width:330px;
+   width:350px;
     height:35px;
-    border-radius:12px;
-    border:2px solid white;
+    border:2px solid black;
+    border-radius:30px;
+    align:center;
+    
   }
-  body {
-  background-color: #1a1a2e;
-}
-.login-box {
-  background-color: #16213e;
-  color: white;
-}
-   p { font-family: 'Cairo'; font-weight: 800; 
-     color:White;
-   }
-.pa9ra{color:green
-
-}
-  
-button{width:150;}
-  div{border:3px solid white;
-    border-radius:5px;
-    background-color:black;
+  body{
+    border:2px solid black;
+    
+    background-color:grey;
   }
-  .khat2{
-    width:150px;
+  label{
+    text-align:right;
+  }
+  div{
+    background-color:white;
+  }
+  boton{
+    background-color:red;
   }
   </style>
 </head>
+
 <body dir="ltr">
-  <main>
-    
-  
-    <form>
-<div id="beta-popup">
-  <div class="beta-box">
-
-    <h3>⚠️ تنبيه</h3>
-<hr class="khat awal">
-    <p class="pa9ra">هذا الموقع تجريبي و لا يزال قيد التطوير</p><br>
-<p class="pa9ra">:مطور الموقع<br>
-مروان اوزكيط
-</p>
-<hr>
-    <button onclick="document.getElementById('beta-popup').style.display='none'">!فهمت</button>
-<p class="pa9ra">سيتم تحديث الموقع في تاريخ12/10/2026</p>
-  </div>
-</div>
-      <center>
-        <div>
-  
-    
-    <p class="p">سجل دخولك لان</p>
-   
-    <br><br>
-    <label id="email">email :</label><br>
-    <input type="email" placeholder="exmple@gmail.com" required>
-    <br><br>
-    <label id="pass">password :</label><br>
-    <input type="password" placeholder="******" required>
-
-    <br><br>
-    <br>
-    <br>
-<input type="checkbox" ><p>Remember me</p>
-    <input type="submit" value="login" id="sub">
-          <p><font style="size=1 ">إنشاء حساب جديد؟</font><a href="#">انشاء حساب؟
-          </a></p>
-      <br><br>
-      <hr class="khat2">
-      <p> تجريبي-marwan2026&copy;</p>
-    </footer>
-  </div>
-  </center>
-   
-  </form>
+  <div>
+  <header>
+    <div>
+  <h2 class="3onwan 1" style="text-align:center;">تسجيل الدخول</h1>
+    </div>
+  </header>
+  <hr>
+  <br>
+  <form>
+    <center>
       
- 
-  </main>
+      
+    
+    
+
+  
+
+  <label>email :</label><br>
+    <input type="email" placeholder="gmail@exmple.com" required>
+    <br><br>
+    <label>password :</label>
+    <input type="password" placeholder="******" required>
+    <br><br><br>
+    <input type="submit" value="تسجيل دخول" class="boton">
+      <p>انشاء حساب<font></font></p>
+    
+        
+
+       
+       
+      <hr>
+      <p>marwanouzgit&copy;</p>
+    <br><br>
+      </div>
+  </form>
+  </center>
 </body>
 </html>
