@@ -1,76 +1,78 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en" dir="ltr">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="styles/style.css"/>
-  <title>Hello, World!</title>
-  <style>
-  .3onwan{
-    text-align:center;
-    
-  }
-  input{
-   width:350px;
-    height:35px;
-    border:2px solid black;
-    border-radius:30px;
-    align:center;
-    
-  }
-  body{
-    border:2px solid black;
-    
-    background-color:grey;
-  }
-  label{
-    text-align:right;
-  }
-  div{
-    background-color:white;
-  }
-  boton{
-    background-color:red;
-  }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacBook Pro - Apple Style</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- خط San Francisco البديل النقي من Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+<body>
 
-<body dir="ltr">
-  <div>
-  <header>
-    <div>
-  <h2 class="3onwan 1" style="text-align:center;">تسجيل الدخول</h1>
+  <!-- شريط التنقل العلوي (Apple Glass Navbar) -->
+  <nav class="apple-nav">
+    <div class="nav-content">
+      <span class="apple-logo"></span>
+      <ul class="nav-links">
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+      <a href="#" class="nav-btn">Buy</a>
+    </div>
+  </nav>
+
+  <!-- القسم الرئيسي (Hero Section) -->
+  <header class="hero-section">
+    <span class="eyebrow">M4 Max Chip</span>
+    <h1>MacBook Pro.</h1>
+    <p class="hero-sub">Mind-blowing. Head-turning.</p>
+    <div class="hero-links">
+      <a href="#" class="btn-primary">Learn more</a>
+      <a href="#" class="btn-secondary">Buy ></a>
+    </div>
+
+    <!-- صورة أو تمثيل بصري لجهاز الماك -->
+    <div class="hero-image-wrapper">
+      <div class="laptop-mockup">
+        <div class="screen-glow"></div>
+        <div class="screen-content">
+          <span class="macos-dock">📁 🌐 💬 ⚙️ 🎵</span>
+        </div>
+      </div>
+      <div class="laptop-base"></div>
     </div>
   </header>
-  <hr>
-  <br>
-  <form>
-    <center>
+
+  <!-- قسم الـ Bento Grid (على طريقة Apple الحديثة) -->
+  <section class="bento-section">
+    <div class="bento-container">
       
-      
-    
-    
-
-  
-
-  <label>email :</label><br>
-    <input type="email" placeholder="gmail@exmple.com" required>
-    <br><br>
-    <label>password :</label>
-    <input type="password" placeholder="******" required>
-    <br><br><br>
-    <input type="submit" value="تسجيل دخول" class="boton">
-      <p>انشاء حساب<font></font></p>
-    
-        
-
-       
-       
-      <hr>
-      <p>marwanouzgit&copy;</p>
-    <br><br>
+      <!-- الكارت الأول: الأداء الخارق -->
+      <div class="bento-card bento-large">
+        <span class="card-tag">Performance</span>
+        <h2>Up to 4x faster rendering than M2.</h2>
+        <div class="visual-chip">M4 Max</div>
       </div>
-  </form>
-  </center>
+
+      <!-- الكارت الثاني: البطارية -->
+      <div class="bento-card bento-medium">
+        <span class="card-tag">Battery Life</span>
+        <h3>24 hours</h3>
+        <p>of battery life. Keep going, and going.</p>
+      </div>
+
+      <!-- الكارت الثالث: الشاشة -->
+      <div class="bento-card bento-medium">
+        <span class="card-tag">Liquid Retina XDR</span>
+        <h3>1600 nits</h3>
+        <p>Peak brightness for stunning HDR content.</p>
+      </div>
+
+    </div>
+  </section>
+
 </body>
 </html>
